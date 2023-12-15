@@ -2,7 +2,7 @@ import socket
 from ip2geotools.databases.noncommercial import DbIpCity
 from geopy.geocoders import Nominatim
 
-url = input("Insert a URL: ")
+url = input("Insèrez un URL ou une Ip: ")
 ip = socket.gethostbyname(url)
 response = DbIpCity.get(ip, api_key="free")
 
