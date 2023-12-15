@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Made in Marseille
+
+@author: Raphael
+"""
+# email : raphael.attias@laplateforme.io
+
 import socket
 from ip2geotools.databases.noncommercial import DbIpCity
 from geopy.geocoders import Nominatim
